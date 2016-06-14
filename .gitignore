@@ -1,5 +1,8 @@
 *
 !*/
 !*.cpp
+!*.c
+!*.py
+!*.java
 !*.h
 !README.md
