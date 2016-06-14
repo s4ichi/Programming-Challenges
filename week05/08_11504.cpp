@@ -7,13 +7,14 @@
 
 using namespace std;
 
-struct scc{
-	int V;
-	vector<int> g[MAX_V],rg[MAX_V],re;
-	bool f[MAX_V];
-	int cmp[MAX_V];
+template<int V>
+struct SCC {
+	int size;
+	vector<int> g[V],rg[V],re;
+	bool f[V];
+	int cmp[V];
 
-	scc(int v):V(v){};
+	SCC(int v):size(v) {};
 
 	void add(int f,int t){
 		g[f].push_back(t);
@@ -39,7 +40,7 @@ struct scc{
 	int build(){
 		memset(f,false,sizeof(f));
 		re.clear();
-		for(int v=0;v<V;v++){
+		for(int v=0;v<size;v++){
 			if(!f[v])DFS(v);
 		}
 		memset(f,false,sizeof(f));
@@ -60,7 +61,7 @@ int main()
 		int n, m;
 		cin >> n >> m;
 
-		scc s(n);
+		SCC<MAX_V> s(n);
 		for (int i=0; i<m; i++) {
 			int a, b;
 			cin >> a >> b;
