@@ -1,6 +1,8 @@
-# Programming Challenge
+# Programming Challenges
 
-Programming Challenge is course of college of information science in university of tsukuba.
+"Programming Challenges" is course of college of information science in university of tsukuba.
+
+[Syllabus](http://www.coins.tsukuba.ac.jp/syllabus/GB21802.html)
 
 ## Judge system
 
