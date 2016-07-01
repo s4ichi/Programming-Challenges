@@ -1,11 +1,11 @@
-# programming challenge
+# Programming Challenge
 
-programming challenge is course of college of information science in university of tsukuba.
+Programming Challenge is course of college of information science in university of tsukuba.
 
 ## Judge system
 
 [UVa Online Judge](https://uva.onlinejudge.org/)
 
-## All problems
+## Problem list
 
 [Programming Challenges 2016: Problem Monitor](http://conclave.cs.tsukuba.ac.jp/lecture/monitor.html)
